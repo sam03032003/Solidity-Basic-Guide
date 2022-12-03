@@ -1,0 +1,78 @@
+{
+  "contractName": "integer",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Basics/5_integer.sol\":\"integer\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Basics/5_integer.sol\":{\"keccak256\":\"0xae26d5b5cd1d3cc92d7520cb9f820610b36695535e7646e098247afa5fb8a078\",\"license\":\"GPL - 3.0\",\"urls\":[\"bzz-raw://d680ea959cd71446940e300580b711240046073dd4239bfb507da20fad2ec007\",\"dweb:/ipfs/QmQDXVx8JbxEsE9Wr3oWmXv6iLqJLZgHgA1cwhM9Jr47YD\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122010c9bd96555eac68fd186823d9ccf2583c203a79fb4aaf4a7eb0e23d07be7d2d64736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122010c9bd96555eac68fd186823d9ccf2583c203a79fb4aaf4a7eb0e23d07be7d2d64736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "79:537:11:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "79:537:11:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: GPL - 3.0 \r\n\r\npragma solidity >= 0.5.0 < 0.9.0;\r\n\r\ncontract integer\r\n{\r\n    // There are 2 types of integer \r\n    // 1st is int, which allows positive and negative values \r\n    // 2nd is uint, which allows only positive value (unsigned int)\r\n\r\n    // Default value of int and uint is 0\r\n\r\n    // int8 means 8 is bit here means use int of size 8 bit\r\n    // int8 :- -128 to +127\r\n\r\n    //-----------> Formula for int:- -2^(n-1) to 2^(n-1)-1    <------------------\r\n    \r\n    // uint8 :- 0 to 255\r\n\r\n    //-----------> Formula for uint:- 0 to 2^(n)-1    <------------------\r\n    \r\n    \r\n\r\n}",
+  "sourcePath": "C:\\Users\\HP\\OneDrive\\Desktop\\Solidity\\Material\\contracts\\Basics\\5_integer.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Basics/5_integer.sol",
+    "exportedSymbols": {
+      "integer": [
+        307
+      ]
+    },
+    "id": 308,
+    "license": "GPL - 3.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 306,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "42:33:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "integer",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 307,
+        "linearizedBaseContracts": [
+          307
+        ],
+        "name": "integer",
+        "nameLocation": "88:7:11",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 308,
+        "src": "79:537:11",
+        "usedErrors": []
+      }
+    ],
+    "src": "42:574:11"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2022-12-03T21:43:06.880Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
